@@ -1,5 +1,5 @@
 import React from "react";
-import { Section } from "./Skills.style";
+import { Section, SkillSet } from "./Skills.style";
 import html_logo from "../images/skills/HTML_logo.png";
 import css_logo from "../images/skills/CSS_logo.png";
 import js_logo from "../images/skills/JS_logo.png";
@@ -10,8 +10,8 @@ import sc_logo from "../images/skills/styled-components_logo.png";
 function Skills() {
   return (
     <Section>
-      <h1>Skills</h1>
-      <ul>
+      <h2>Skills</h2>
+      <SkillSet>
         <li>
           <img src={html_logo} alt="HTML5" />
           <span>HTML5</span>
@@ -37,7 +37,7 @@ function Skills() {
           <span>Styled-Components</span>
         </li>
         {/* TypeScript, Sass, Node.js, Express, MongoDB, MySQL */}
-      </ul>
+      </SkillSet>
     </Section>
   );
 }

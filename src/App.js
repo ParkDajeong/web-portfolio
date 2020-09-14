@@ -1,18 +1,14 @@
 import React from "react";
+import Intro from "./components/Intro";
 import Main from "./components/Main";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import GlobalStyle from "./GlobalStyle";
 
 function App() {
   return (
     <div className="App">
+      <Intro />
       <Main />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
+      <GlobalStyle />
     </div>
   );
 }

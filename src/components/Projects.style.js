@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const Section = styled.section`
-  height: 100%;
+  width: 1000px;
+  margin: auto;
   img {
     width: 100%;
   }

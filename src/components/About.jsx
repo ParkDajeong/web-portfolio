@@ -1,23 +1,29 @@
 import React from "react";
-import { Section } from "./About.style";
+import { Section, Profile, Contact } from "./About.style";
 import profile from "../images/profile.png";
 
 function About() {
   return (
     <Section>
-      <h1>About me</h1>
-      <div>
+      <h2>About me</h2>
+      <Profile>
         <img src={profile} alt="박다정 증명사진" />
         <div>
           <h2>박다정</h2>
           <span>FrontEnd Developer</span>
-          <div>
-            <span>전화번호</span>
-            <span>메일 주소</span>
-            <span>깃허브 주소</span>
-          </div>
+          <Contact>
+            <li>
+              <a href="tel:010-8324-6601">010-8324-6601</a>
+            </li>
+            <li>
+              <a href="mailto:yswk0901@gmail.com">yswk0901@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/ParkDajeong">github.com/ParkDajeong</a>
+            </li>
+          </Contact>
         </div>
-      </div>
+      </Profile>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, pariatur accusantium! Quidem iste nam ipsa magni? Eveniet, illum! In vitae
         architecto veritatis odio culpa voluptatibus adipisci. Quidem quos optio dolorem. Quidem harum est nulla recusandae dolorum commodi. Ab quas
