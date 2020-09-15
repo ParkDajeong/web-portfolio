@@ -6,7 +6,7 @@ function Main() {
   return (
     <Section>
       {/* 이미지 나중에 여러개 돌아가게 */}
-      <img src={profile} alt="박다정 증명사진" />
+      {/* <img src={profile} alt="박다정 증명사진" /> */}
       <DescBox>
         <h1>
           안녕하세요,

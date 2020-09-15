@@ -1,24 +1,19 @@
 import React from "react";
-import { Section } from "./Projects.style";
+import { Section, TimeLine, Card } from "./Projects.style";
 import Movie from "../images/projects/Movie.PNG";
 
 function Projects() {
   return (
     <Section>
       <h2>Projects</h2>
-      {/* 타임라인처럼 스타일링 */}
-      <div>
-        <p>2020.08 ~ 2020.08</p>
-        <h3>Movies</h3>
-        <img src={Movie} alt="Movie 프로젝트 홈 스크린샷" />
-        {/* 이미지 마우스 오버 => 깃허브 링크 연결 뜨도록 */}
-        <div>
-          <a href="#" target="_blank">
-            GitHub로 이동하기 🚀
-          </a>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, suscipit!</p>
-      </div>
+      <TimeLine date="2020.08">
+        <h2>Movies</h2>
+        <p>The Movie DB API를 이용한 영화 정보 사이트</p>
+        <Card href="https://github.com/ParkDajeong/movie.git" target="_blank">
+          <img src={Movie} alt="Movie 프로젝트 홈 스크린샷" />
+          <div>GitHub로 이동하기 🚀</div>
+        </Card>
+      </TimeLine>
     </Section>
   );
 }
