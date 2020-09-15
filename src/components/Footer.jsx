@@ -6,7 +6,11 @@ function Footer() {
   return (
     <FooterWrap>
       <span>Create By ParkDajeong</span>
-      <a href="https://github.com/ParkDajeong" target="_blank">
+      <a //
+        href="https://github.com/ParkDajeong"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={github} alt="깃허브 아이콘" />
       </a>
     </FooterWrap>

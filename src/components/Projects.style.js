@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Section = styled.section`
   width: 1000px;
   margin: auto;
+  margin-bottom: 20px;
   padding-top: 30px;
 `;
 
@@ -35,7 +36,7 @@ const TimeLine = styled.div`
     background-color: white;
   }
   &:last-child {
-    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 85%, rgba(0, 0, 0, 0)) 1 100%;
   }
 
   h2 {
@@ -51,7 +52,7 @@ const TimeLine = styled.div`
 `;
 
 const Card = styled.a`
-  display: block;
+  display: flex;
   position: relative;
   margin: 18px 0 15px;
 
