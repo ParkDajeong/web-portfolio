@@ -8,6 +8,7 @@ const Section = styled.section`
 
 const SkillSet = styled.ul`
   display: flex;
+  justify-content: space-around;
 
   li {
     display: flex;
@@ -17,8 +18,13 @@ const SkillSet = styled.ul`
   }
 
   li > img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
+  }
+
+  li > span {
+    font-weight: 500;
+    padding: 10px 0;
   }
 `;
 

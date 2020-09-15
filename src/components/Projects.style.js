@@ -4,7 +4,7 @@ const Section = styled.section`
   width: 1000px;
   margin: auto;
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 20px;
 `;
 
 const TimeLine = styled.div`

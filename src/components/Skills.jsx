@@ -5,7 +5,7 @@ import css_logo from "../images/skills/CSS_logo.png";
 import js_logo from "../images/skills/JS_logo.png";
 import react_logo from "../images/skills/react_logo.png";
 import redux_logo from "../images/skills/redux_logo.png";
-import sc_logo from "../images/skills/styled-components_logo.png";
+import sc_logo from "../images/skills/styled-components_logo2.png";
 
 function Skills() {
   return (
