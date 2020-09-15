@@ -39,7 +39,7 @@ const TimeLine = styled.div`
     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 85%, rgba(0, 0, 0, 0)) 1 100%;
   }
 
-  h2 {
+  h3 {
     margin: 8px 0;
     font-size: 1.6rem;
   }

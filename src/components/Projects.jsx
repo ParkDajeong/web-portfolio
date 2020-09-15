@@ -7,7 +7,7 @@ function Projects() {
     <Section>
       <h2>Projects</h2>
       <TimeLine date="2020.08">
-        <h2>Movies</h2>
+        <h3>Movies</h3>
         <p>The Movie DB API를 이용한 영화 정보 사이트</p>
         <Card //
           href="https://github.com/ParkDajeong/movie.git"

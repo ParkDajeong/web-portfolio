@@ -1,6 +1,9 @@
 import React from "react";
 import { Section, Profile, Contact } from "./About.style";
 import profile from "../images/profile.png";
+import phone from "../images/contact/phone.png";
+import mail from "../images/contact/mail.png";
+import github from "../images/contact/github.png";
 
 function About() {
   return (
@@ -9,16 +12,19 @@ function About() {
       <Profile>
         <img src={profile} alt="박다정 증명사진" />
         <div>
-          <h2>박다정</h2>
+          <h3>박다정</h3>
           <span>FrontEnd Developer</span>
           <Contact>
             <li>
+              <img src={phone} alt="전화" />
               <a href="tel:010-8324-6601">010-8324-6601</a>
             </li>
             <li>
+              <img src={mail} alt="이메일" />
               <a href="mailto:yswk0901@gmail.com">yswk0901@gmail.com</a>
             </li>
             <li>
+              <img src={github} alt="깃허브" />
               <a href="https://github.com/ParkDajeong">github.com/ParkDajeong</a>
             </li>
           </Contact>

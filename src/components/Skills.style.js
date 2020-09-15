@@ -23,7 +23,6 @@ const SkillSet = styled.ul`
   }
 
   li > span {
-    font-weight: 500;
     padding: 10px 0;
   }
 `;

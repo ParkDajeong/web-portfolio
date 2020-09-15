@@ -1,6 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+  }
+
   ul {
     list-style: none;
     padding: 0;
@@ -18,6 +23,8 @@ const GlobalStyle = createGlobalStyle`
 
   h2 {
     font-size: 2rem;
+    font-family: "Lora", serif;
+    font-style: italic;
   }
 `;
 
