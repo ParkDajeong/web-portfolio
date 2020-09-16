@@ -1,5 +1,6 @@
 import React from "react";
 import { Section, SkillSet } from "./Skills.style";
+import SkillItem from "./SkillItem";
 import html_logo from "../../images/skills/HTML_logo.png";
 import css_logo from "../../images/skills/CSS_logo.png";
 import js_logo from "../../images/skills/JS_logo.png";
@@ -12,46 +13,12 @@ function Skills() {
     <Section>
       <h2>Skills</h2>
       <SkillSet>
-        <li>
-          <div>
-            <img src={html_logo} alt="HTML5" />
-          </div>
-          <span>HTML5</span>
-        </li>
-        <li>
-          <div>
-            <img src={css_logo} alt="CSS" />
-          </div>
-          <span>CSS</span>
-        </li>
-        <li>
-          <div>
-            <img src={js_logo} alt="JavaScript" />
-          </div>
-          <span>JavaScript</span>
-        </li>
-        <li>
-          <div>
-            <img src={react_logo} alt="React" />
-          </div>
-          <span>React</span>
-        </li>
-        <li>
-          <div>
-            <img src={redux_logo} alt="Redux" />
-          </div>
-          <span>Redux</span>
-        </li>
-        <li>
-          <div>
-            <img src={sc_logo} alt="Styled-Components" />
-          </div>
-          <span>
-            Styled
-            <br />
-            Components
-          </span>
-        </li>
+        <SkillItem logo={html_logo} text="HTML5" />
+        <SkillItem logo={css_logo} text="CSS" />
+        <SkillItem logo={js_logo} text="JavaScript" />
+        <SkillItem logo={react_logo} text="React" />
+        <SkillItem logo={redux_logo} text="Redux" />
+        <SkillItem logo={sc_logo} text="Styled Components" />
         {/* TypeScript, Sass, Node.js, Express, MongoDB, MySQL */}
       </SkillSet>
     </Section>
