@@ -23,15 +23,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
+    display: inline-block;
     font-size: 2rem;
     font-family: "Lora", serif;
     font-style: italic;
-  }
-
-  @media only screen and (max-width: 768px) {
-    h2 {
-      text-align: center;
-    }
+    background: linear-gradient(to top, #b2dbba 40%, transparent 40%);
   }
 `;
 

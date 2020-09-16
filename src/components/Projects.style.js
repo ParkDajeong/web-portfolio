@@ -10,6 +10,7 @@ const TimeLine = styled.div`
   margin-left: 2rem;
   padding: 2.5em 2em 2em;
   border-left: 2px solid rgba(0, 0, 0, 0.3);
+  text-align: initial;
 
   &:before {
     content: "${(props) => props.date}";

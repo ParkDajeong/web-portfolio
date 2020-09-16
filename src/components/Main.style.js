@@ -12,6 +12,9 @@ const MainContainer = styled.section`
     & > div {
       padding: 0 2%;
     }
+    section {
+      text-align: center;
+    }
   }
   @media only screen and (min-width: 768px) {
     & > div {
