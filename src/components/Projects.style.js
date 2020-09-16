@@ -47,6 +47,11 @@ const TimeLine = styled.div`
     padding-left: 3px;
     font-size: 0.94rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 1rem;
+    padding: 2em 0 2em 1.2em;
+  }
 `;
 
 const Card = styled.a`
@@ -78,6 +83,12 @@ const Card = styled.a`
     width: 100%;
     height: 100%;
     border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    div {
+      font-size: 1.3rem;
+    }
   }
 `;
 

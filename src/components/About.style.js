@@ -3,11 +3,12 @@ import styled from "styled-components";
 const Section = styled.section`
   p {
     margin: 1.2rem 1.5rem 1rem;
+    line-height: 1.6rem;
   }
 
   @media only screen and (max-width: 768px) {
     p {
-      text-align: center;
+      text-align: justify;
       margin-top: 5px;
     }
   }

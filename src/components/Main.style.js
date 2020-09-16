@@ -8,7 +8,7 @@ const MainContainer = styled.section`
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (max-width: 767px) {
     & > div {
       padding: 0 2%;
     }
