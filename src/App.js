@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "./components/Intro";
+import Intro from "./components/intro/Intro";
 import Main from "./components/Main";
 import GlobalStyle from "./GlobalStyle";
 

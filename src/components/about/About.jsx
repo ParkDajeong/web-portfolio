@@ -1,9 +1,9 @@
 import React from "react";
 import { Section, Profile, Contact, MobileContact, ContactItem } from "./About.style";
-import profile from "../images/profile.png";
-import phone from "../images/contact/phone.png";
-import mail from "../images/contact/mail.png";
-import github from "../images/contact/github.png";
+import profile from "../../images/profile.png";
+import phone from "../../images/contact/phone.png";
+import mail from "../../images/contact/mail.png";
+import github from "../../images/contact/github.png";
 
 function About() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Section, TimeLine, Card } from "./Projects.style";
-import Movie from "../images/projects/Movie.PNG";
+import Movie from "../../images/projects/Movie.PNG";
 
 function Projects() {
   return (

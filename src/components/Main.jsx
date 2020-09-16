@@ -1,8 +1,8 @@
 import React from "react";
 import { MainContainer } from "./Main.style";
-import About from "./About";
-import Skills from "./Skills";
-import Projects from "./Projects";
+import About from "./about/About";
+import Skills from "./skills/Skills";
+import Projects from "./projects/Projects";
 import Footer from "./Footer";
 
 function Main() {
