@@ -1,20 +1,19 @@
 import styled from "styled-components";
 
 const Section = styled.section`
-  width: 1000px;
-  margin: auto;
   padding-top: 30px;
 `;
 
 const SkillSet = styled.ul`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px 15px;
+    margin: 5px 1%;
   }
 
   li > img {

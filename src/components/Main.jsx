@@ -8,9 +8,11 @@ import Footer from "./Footer";
 function Main() {
   return (
     <MainContainer>
-      <About />
-      <Skills />
-      <Projects />
+      <div>
+        <About />
+        <Skills />
+        <Projects />
+      </div>
       <Footer />
     </MainContainer>
   );

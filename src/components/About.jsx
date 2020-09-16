@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Profile, Contact } from "./About.style";
+import { Section, Profile, Contact, MobileContact, ContactItem } from "./About.style";
 import profile from "../images/profile.png";
 import phone from "../images/contact/phone.png";
 import mail from "../images/contact/mail.png";
@@ -25,9 +25,37 @@ function About() {
             </li>
             <li>
               <img src={github} alt="깃허브" />
-              <a href="https://github.com/ParkDajeong">github.com/ParkDajeong</a>
+              <a //
+                href="https://github.com/ParkDajeong"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/ParkDajeong
+              </a>
             </li>
           </Contact>
+          <MobileContact>
+            <ContactItem //
+              href="tel:010-8324-6601"
+              tooltip="010-8324-6601"
+            >
+              <img src={phone} alt="전화" />
+            </ContactItem>
+            <ContactItem //
+              href="mailto:yswk0901@gmail.com"
+              tooltip="yswk0901@gmail.com"
+            >
+              <img src={mail} alt="이메일" />
+            </ContactItem>
+            <ContactItem //
+              href="https://github.com/ParkDajeong"
+              target="_blank"
+              rel="noopener noreferrer"
+              tooltip="github.com/ParkDajeong"
+            >
+              <img src={github} alt="깃허브" />
+            </ContactItem>
+          </MobileContact>
         </div>
       </Profile>
       <p>

@@ -26,6 +26,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Lora", serif;
     font-style: italic;
   }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      text-align: center;
+    }
+  }
 `;
 
 export default GlobalStyle;
